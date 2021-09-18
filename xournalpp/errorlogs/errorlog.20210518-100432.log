@@ -1,0 +1,68 @@
+Date: Tue May 18 10:04:32 2021
+Error: signal 11
+[bt]: (0) xournalpp(+0x1d95d2) [0x560aca3e45d2]
+[bt]: (1) /usr/lib/libc.so.6(+0x3cda0) [0x7f51cf7e1da0]
+[bt]: (2) xournalpp(_ZN20AbstractInputHandler33getInputDataRelativeToCurrentPageEP11XojPageViewP10InputEvent+0xe1) [0x560aca37a7b1]
+[bt]: (3) xournalpp(_ZN15PenInputHandler13actionPerformEP10InputEvent+0xb8) [0x560aca37ed98]
+[bt]: (4) xournalpp(_ZN18StylusInputHandler10handleImplEP10InputEvent+0x302) [0x560aca37f942]
+[bt]: (5) /usr/lib/libgtk-3.so.0(+0x84235) [0x7f51d0582235]
+[bt]: (6) /usr/lib/libgobject-2.0.so.0(g_signal_emit_valist+0x1276) [0x7f51d0033096]
+[bt]: (7) /usr/lib/libgobject-2.0.so.0(g_signal_emit+0x90) [0x7f51d0033210]
+[bt]: (8) /usr/lib/libgtk-3.so.0(+0x3438da) [0x7f51d08418da]
+[bt]: (9) /usr/lib/libgtk-3.so.0(+0x1df795) [0x7f51d06dd795]
+[bt]: (10) /usr/lib/libgtk-3.so.0(gtk_main_do_event+0x11dd) [0x7f51d06deaed]
+[bt]: (11) /usr/lib/libgdk-3.so.0(+0x3da03) [0x7f51d043ba03]
+[bt]: (12) /usr/lib/libgdk-3.so.0(+0x8da04) [0x7f51d048ba04]
+[bt]: (13) /usr/lib/libglib-2.0.so.0(g_main_context_dispatch+0x25c) [0x7f51d0cfb02c]
+[bt]: (14) /usr/lib/libglib-2.0.so.0(+0xa7b59) [0x7f51d0d4eb59]
+[bt]: (15) /usr/lib/libglib-2.0.so.0(g_main_loop_run+0x83) [0x7f51d0cfa593]
+[bt]: (16) /usr/lib/libgtk-3.so.0(gtk_main+0x9f) [0x7f51d06d461f]
+[bt]: (17) xournalpp(_ZN11XournalMain3runEiPPc+0xbc3) [0x560aca2d0ab3]
+[bt]: (18) xournalpp(main+0x37) [0x560aca2a4177]
+[bt]: (19) /usr/lib/libc.so.6(__libc_start_main+0xd5) [0x7f51cf7ccb25]
+[bt]: (20) xournalpp(_start+0x2e) [0x560aca2a470e]
+
+
+Try to get a better stracktrace...
+[bt] #1 xournalpp(+0x1d987b) [0x560aca3e487b]
+??:0
+[bt] #2 /usr/lib/libc.so.6(+0x3cda0) [0x7f51cf7e1da0]
+??:0
+[bt] #3 xournalpp(_ZN20AbstractInputHandler33getInputDataRelativeToCurrentPageEP11XojPageViewP10InputEvent+0xe1) [0x560aca37a7b1]
+??:0
+[bt] #4 xournalpp(_ZN15PenInputHandler13actionPerformEP10InputEvent+0xb8) [0x560aca37ed98]
+??:0
+[bt] #5 xournalpp(_ZN18StylusInputHandler10handleImplEP10InputEvent+0x302) [0x560aca37f942]
+??:0
+[bt] #6 /usr/lib/libgtk-3.so.0(+0x84235) [0x7f51d0582235]
+??:0
+[bt] #7 /usr/lib/libgobject-2.0.so.0(g_signal_emit_valist+0x1276) [0x7f51d0033096]
+??:0
+[bt] #8 /usr/lib/libgobject-2.0.so.0(g_signal_emit+0x90) [0x7f51d0033210]
+??:0
+[bt] #9 /usr/lib/libgtk-3.so.0(+0x3438da) [0x7f51d08418da]
+??:0
+[bt] #10 /usr/lib/libgtk-3.so.0(+0x1df795) [0x7f51d06dd795]
+??:0
+[bt] #11 /usr/lib/libgtk-3.so.0(gtk_main_do_event+0x11dd) [0x7f51d06deaed]
+??:0
+[bt] #12 /usr/lib/libgdk-3.so.0(+0x3da03) [0x7f51d043ba03]
+??:0
+[bt] #13 /usr/lib/libgdk-3.so.0(+0x8da04) [0x7f51d048ba04]
+??:0
+[bt] #14 /usr/lib/libglib-2.0.so.0(g_main_context_dispatch+0x25c) [0x7f51d0cfb02c]
+??:0
+[bt] #15 /usr/lib/libglib-2.0.so.0(+0xa7b59) [0x7f51d0d4eb59]
+??:0
+[bt] #16 /usr/lib/libglib-2.0.so.0(g_main_loop_run+0x83) [0x7f51d0cfa593]
+??:0
+[bt] #17 /usr/lib/libgtk-3.so.0(gtk_main+0x9f) [0x7f51d06d461f]
+??:0
+[bt] #18 xournalpp(_ZN11XournalMain3runEiPPc+0xbc3) [0x560aca2d0ab3]
+??:0
+[bt] #19 xournalpp(main+0x37) [0x560aca2a4177]
+??:0
+[bt] #20 /usr/lib/libc.so.6(__libc_start_main+0xd5) [0x7f51cf7ccb25]
+??:0
+[bt] #21 xournalpp(_start+0x2e) [0x560aca2a470e]
+??:0

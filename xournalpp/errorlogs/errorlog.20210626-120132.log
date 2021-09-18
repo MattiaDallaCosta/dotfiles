@@ -1,0 +1,50 @@
+Date: Sat Jun 26 12:01:32 2021
+Error: signal 11
+[bt]: (0) xournalpp(+0x1d95d2) [0x56202aaf35d2]
+[bt]: (1) /usr/lib/libc.so.6(+0x3cda0) [0x7f8aab768da0]
+[bt]: (2) xournalpp(_Z16xoj_type_getNamei+0x1002) [0x56202aafdd32]
+[bt]: (3) xournalpp(_ZN12InputContext13unblockDeviceENS_10DeviceTypeE+0x4f) [0x56202aa8b0af]
+[bt]: (4) xournalpp(_ZN15HandRecognition11enableTouchEv+0x8e) [0x56202aa8a03e]
+[bt]: (5) xournalpp(_ZN15HandRecognitionD1Ev+0x138) [0x56202aa8a198]
+[bt]: (6) xournalpp(_ZN15HandRecognitionD0Ev+0x9) [0x56202aa8a1a9]
+[bt]: (7) xournalpp(_ZN11XournalViewD2Ev+0x135) [0x56202aa65045]
+[bt]: (8) xournalpp(_ZN11XournalViewD0Ev+0x9) [0x56202aa65119]
+[bt]: (9) xournalpp(_ZN10MainWindowD1Ev+0xdb) [0x56202aa4f65b]
+[bt]: (10) xournalpp(_ZN10MainWindowD0Ev+0x9) [0x56202aa4f7a9]
+[bt]: (11) xournalpp(_ZN11XournalMain3runEiPPc+0xbf9) [0x56202a9dfae9]
+[bt]: (12) xournalpp(main+0x37) [0x56202a9b3177]
+[bt]: (13) /usr/lib/libc.so.6(__libc_start_main+0xd5) [0x7f8aab753b25]
+[bt]: (14) xournalpp(_start+0x2e) [0x56202a9b370e]
+
+
+Try to get a better stracktrace...
+[bt] #1 xournalpp(+0x1d987b) [0x56202aaf387b]
+??:0
+[bt] #2 /usr/lib/libc.so.6(+0x3cda0) [0x7f8aab768da0]
+??:0
+[bt] #3 xournalpp(_Z16xoj_type_getNamei+0x1002) [0x56202aafdd32]
+??:0
+[bt] #4 xournalpp(_ZN12InputContext13unblockDeviceENS_10DeviceTypeE+0x4f) [0x56202aa8b0af]
+??:0
+[bt] #5 xournalpp(_ZN15HandRecognition11enableTouchEv+0x8e) [0x56202aa8a03e]
+??:0
+[bt] #6 xournalpp(_ZN15HandRecognitionD1Ev+0x138) [0x56202aa8a198]
+??:0
+[bt] #7 xournalpp(_ZN15HandRecognitionD0Ev+0x9) [0x56202aa8a1a9]
+??:0
+[bt] #8 xournalpp(_ZN11XournalViewD2Ev+0x135) [0x56202aa65045]
+??:0
+[bt] #9 xournalpp(_ZN11XournalViewD0Ev+0x9) [0x56202aa65119]
+??:0
+[bt] #10 xournalpp(_ZN10MainWindowD1Ev+0xdb) [0x56202aa4f65b]
+??:0
+[bt] #11 xournalpp(_ZN10MainWindowD0Ev+0x9) [0x56202aa4f7a9]
+??:0
+[bt] #12 xournalpp(_ZN11XournalMain3runEiPPc+0xbf9) [0x56202a9dfae9]
+??:0
+[bt] #13 xournalpp(main+0x37) [0x56202a9b3177]
+??:0
+[bt] #14 /usr/lib/libc.so.6(__libc_start_main+0xd5) [0x7f8aab753b25]
+??:0
+[bt] #15 xournalpp(_start+0x2e) [0x56202a9b370e]
+??:0

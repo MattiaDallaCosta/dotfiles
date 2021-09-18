@@ -1,0 +1,39 @@
+ros-noetic-tf2-kdl-0.7.5-1  ros-noetic-kdl-parser-1.14.1-2  
+    ros-noetic-robot-state-publisher-1.15.0-2  ros-noetic-urdf-tutorial-0.5.0-1  
+    ros-noetic-rqt-top-0.4.10-1  ros-noetic-rqt-common-plugins-0.4.9-1  
+    ros-noetic-viz-1.5.0-1  ros-noetic-diagnostic-common-diagnostics-1.10.4-1  
+    ros-noetic-diagnostics-1.10.4-1  ros-noetic-robot-1.5.0-1  
+    ros-noetic-roscpp-tutorials-0.10.2-1  ros-noetic-rospy-tutorials-0.10.2-1  
+    ros-noetic-ros-tutorials-1.3.1-1  ros-noetic-desktop-1.5.0-1  
+    ros-noetic-gazebo-msgs-2.9.2-1  libccd-2.1-1  ignition-cmake-2.9.0-1  
+    ignition-tools-1.0.0-2  ignition-math-6.8.0-1  sdformat-9-9.5.0-1  
+    ignition-msgs-5-5.7.0-1  ignition-transport-8-8.2.0-1  ignition-common-3-3.13.1-1
+    ignition-fuel_tools-4-4.4.0-1  gazebo-11.7.0-2  ros-noetic-gazebo-dev-2.9.2-1  
+    ros-noetic-gazebo-ros-2.9.2-2  ros-noetic-camera-calibration-parsers-1.12.0-1  
+    ros-noetic-camera-info-manager-1.12.0-1  ros-noetic-polled-camera-1.12.0-1  
+    ros-noetic-gazebo-plugins-2.9.2-2  ros-noetic-gazebo-ros-pkgs-2.9.2-1  
+    ros-noetic-stage-4.3.0-3  ros-noetic-stage-ros-1.8.0-4  
+    ros-noetic-simulators-1.5.0-1  ros-noetic-image-geometry-1.15.0-1  
+    ros-noetic-vision-opencv-1.15.0-1  ros-noetic-pcl-msgs-0.3.0-1  flann-1.9.1-7  
+    pcl-1.11.1-2  ros-noetic-pcl-conversions-1.7.2-1  ros-noetic-tf2-eigen-0.7.5-1  
+    ros-noetic-pcl-ros-1.7.2-2  ros-noetic-perception-pcl-1.7.2-1  
+    ros-noetic-laser-assembler-1.7.8-1  ros-noetic-laser-filters-1.8.11-3  
+    ros-noetic-laser-pipeline-1.6.4-1  
+    ros-noetic-compressed-depth-image-transport-1.14.0-1  
+    ros-noetic-compressed-image-transport-1.14.0-1  
+    ros-noetic-theora-image-transport-1.14.0-1  
+    ros-noetic-image-transport-plugins-1.14.0-1  ros-noetic-image-rotate-1.15.3-1  
+    ros-noetic-image-proc-1.15.3-2  ros-noetic-stereo-image-proc-1.15.3-2  
+    ros-noetic-depth-image-proc-1.15.3-2  ros-noetic-image-view-1.15.3-1  
+    ros-noetic-image-publisher-1.15.3-1  ros-noetic-camera-calibration-1.15.3-1  
+    ros-noetic-image-pipeline-1.15.3-1  ros-noetic-image-common-1.12.0-1  
+    ros-noetic-perception-1.5.0-1  ros-noetic-hardware-interface-0.19.5-1  
+    ros-noetic-controller-interface-0.19.5-1  ros-noetic-realtime-tools-1.16.1-1  
+    ros-noetic-forward-command-controller-0.19.0-1  
+    ros-noetic-position-controllers-0.19.0-2  ros-noetic-controller-manager-0.19.5-1
+    ros-noetic-joint-state-controller-0.19.0-2  
+    ros-noetic-diff-drive-controller-0.19.0-2  
+    ros-noetic-joint-limits-interface-0.19.5-1  
+    ros-noetic-transmission-interface-0.19.5-1  ros-noetic-control-toolbox-1.18.2-1
+    ros-noetic-gazebo-ros-control-2.9.2-2  ros-noetic-urdf-sim-tutorial-0.5.1-1  
+    ros-noetic-desktop-full-1.5.0-1
